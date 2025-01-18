@@ -1,0 +1,25 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Magic Wand Behavior Pack",
+        "name": "Magic Wand Behavior",
+        "uuid": "YOUR-UNIQUE-UUID-1",
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "Magic Wand Behavior Module",
+            "type": "data",
+            "uuid": "YOUR-UNIQUE-UUID-2",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}
