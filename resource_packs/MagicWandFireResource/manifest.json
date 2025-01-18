@@ -1,0 +1,25 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Magic Wand Resource Pack",
+        "name": "Magic Wand Resource",
+        "uuid": "YOUR-UNIQUE-UUID-3",
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "Magic Wand Resource Module",
+            "type": "resources",
+            "uuid": "YOUR-UNIQUE-UUID-4",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}
