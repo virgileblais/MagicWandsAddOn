@@ -1,8 +1,8 @@
 {
     "format_version": 2,
     "header": {
-        "description": "Magic Wand Resource Pack",
-        "name": "Magic Wand Resource",
+        "description": "Fire Wand Resource Pack",
+        "name": "Fire Wand Resource",
         "uuid": "YOUR-UNIQUE-UUID-3",
         "version": [
             1,
@@ -12,7 +12,7 @@
     },
     "modules": [
         {
-            "description": "Magic Wand Resource Module",
+            "description": "Fire Wand Resource Module",
             "type": "resources",
             "uuid": "YOUR-UNIQUE-UUID-4",
             "version": [

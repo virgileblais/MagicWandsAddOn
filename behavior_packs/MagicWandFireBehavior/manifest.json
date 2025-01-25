@@ -1,9 +1,9 @@
 {
     "format_version": 2,
     "header": {
-        "description": "Magic Wand Behavior Pack",
-        "name": "Magic Wand Behavior",
-        "uuid": "YOUR-UNIQUE-UUID-1",
+        "description": "Fire Wand Behavior Pack",
+        "name": "Fire Wand Behavior",
+        "uuid": "2ea8851d-3778-4980-be82-c171aecbf5c7",
         "version": [
             1,
             0,
@@ -12,9 +12,9 @@
     },
     "modules": [
         {
-            "description": "Magic Wand Behavior Module",
+            "description": "Fire Wand Behavior Module",
             "type": "data",
-            "uuid": "YOUR-UNIQUE-UUID-2",
+            "uuid": "2704f576-4339-43c2-ad45-ea55a405f290",
             "version": [
                 1,
                 0,
