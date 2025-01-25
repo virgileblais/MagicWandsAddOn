@@ -1,0 +1,17 @@
+{
+    "format_version": "1.20.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "minecraft:fire_wand"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "fire_wand"
+            },
+            "minecraft:display_name": {
+                "value": "item.fire_wand.name"
+            },
+            "minecraft:hand_equipped": true
+        }
+    }
+}
