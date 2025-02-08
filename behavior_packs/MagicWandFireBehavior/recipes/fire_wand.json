@@ -1,5 +1,5 @@
 {
-    "format_version": "1.20.10",
+    "format_version": "1.20.50",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "minecraft:fire_wand"
@@ -34,6 +34,39 @@
         "result": {
             "item": "minecraft:fire_wand",
             "count": 1
+        }
+    },
+    "minecraft:item": {
+        "description": {
+            "identifier": "minecraft:fire_wand"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "fire_wand"
+            },
+            "minecraft:display_name": {
+                "value": "Fire Wand"
+            },
+            "minecraft:hand_equipped": true,
+            "minecraft:use_item": {
+                "duration": 1,
+                "on_use": {
+                    "event": "launch_fireball"
+                }
+            }
+        },
+        "events": {
+            "launch_fireball": {
+                "minecraft:execute_command": {
+                    "command": "say Fire Wand activated!"
+                },
+                "minecraft:spawn_entity": {
+                    "entity": "minecraft:fireball",
+                    "offset": [0, 1, 0],
+                    "direction": "player_view",
+                    "count": 1
+                }
+            }
         }
     }
 }
