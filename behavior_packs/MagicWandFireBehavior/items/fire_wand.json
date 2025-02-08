@@ -9,9 +9,24 @@
                 "texture": "fire_wand"
             },
             "minecraft:display_name": {
-                "value": "item.fire_wand.name"
+                "value": "Fire Wand"
             },
-            "minecraft:hand_equipped": true
+            "minecraft:hand_equipped": true,
+            "minecraft:use_item": {
+                "on_use": {
+                    "event": "launch_fireball"
+                }
+            }
+        },
+        "events": {
+            "launch_fireball": {
+                "minecraft:spawn_entity": {
+                    "entity": "minecraft:fireball",
+                    "offset": [0, 1, 0],
+                    "direction": "player_view",
+                    "count": 1
+                }
+            }
         }
     }
 }
